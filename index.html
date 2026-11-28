@@ -35,7 +35,7 @@
         <div class="hero-wrapper">
 
             <div class="hero-content">
-                <h1>Manual QA Engineer & AI Solutions Builder</h1>
+                <h1>Associate QA Engineer & AI/LLM Solutions Developer</h1>
                 <p>
                     I develop <strong>AI applications</strong> using AI-assisted development and manually test them to find where<strong>business logic and LLM outputs break.</strong>
                     Hands-on with <strong>CRM workflows, chatbots, and web applications.</strong>
@@ -177,9 +177,9 @@
 <div class="projects-grid">
 <div class="project-card">
                 <div class="project-content">
-                    <div class="project-tag">Python, FAISS, BM25, Cross-Encoder, pytest</div>
+                    <div class="project-tag">Python, FAISS, BM25, Sentence-Transformers, Cross-Encoder, pytest, Gemini API</div>
                     <h3>AI QA & Bug Investigation Agent (In Progress)</h3>
-                    <p>Evidence-grounded <strong>RAG system</strong> (built with AI-assisted development) that investigates bug reports against requirements, API docs, test cases, and past bugs from a <strong>31-document CRM knowledge base</strong>. Discovered and documented 8 key defects. <strong>Hybrid retrieval returns results in 44 ms per query</strong>, cross-encoder reranking raised unique source documents in the <strong>top 5 from 3 to 4</strong>, and surfaced a relevant test case. Verified with <strong>6 passing pytest</strong> tests.</p>
+                    <p>Evidence-grounded <strong>RAG system</strong> (built with AI-assisted development) that investigates bug reports against requirements, API docs, test cases, and past bugs from a <strong>31-document CRM knowledge base</strong>. Implemented hybrid retrieval (FAISS, BM25, metadata filtering, query caching), achieving <strong>44 ms per query</strong>. Added Cross-Encoder reranking (ms-marco-MiniLM-L-6-v2), reducing duplicate chunks in the top 5 from <strong>3 to 2</strong>, increasing unique source documents from <strong>3 to 4</strong>, and surfacing test case <strong>TC-AUTH-014</strong>. Integrated <strong>Google Gemini API</strong> through a reusable LLM client with token counting, cost calculation, evidence-based prompt construction, and source ID extraction supporting multiple metadata formats. Monitored <strong>1.2 s full-pipeline latency</strong> (10 candidates scored). Verified with <strong>38 passing pytest tests</strong>, including 6 dedicated reranking tests from Phase 5.</p>
                     <div class="project-links">
                         <a href="https://github.com/Nayabkhushk/AI-QA-Bug-Investigation-Agent" class="p-link github"
                             target="_blank">
